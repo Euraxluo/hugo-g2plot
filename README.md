@@ -2,13 +2,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/budparr/awesome-hugo)
 
-English | [中文说明](README_zh-CN.md)
 
 ## About
 
 This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme component providing a shortcode: `g2plot` to display [g2plot](https://antv-g2.gitee.io/zh) in your Hugo site. 
 
-![Screenshot](https://gitee.com/Euraxluo/images/raw/master/picgo/1.png)
+![Screenshot](screenshots/1.png)
 
 ## Usage
 
@@ -73,7 +72,7 @@ This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme componen
 {{< /g2plot >}}
 ```
 
-![Line chart](https://gitee.com/Euraxluo/images/raw/master/picgo/2.png)
+![Line chart](screenshots/2.png)
 
 ```go
 {{< g2plot Bar 100 300 >}}
@@ -95,7 +94,7 @@ This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme componen
 {{< /g2plot >}}
 ```
 
-![Bar chart](https://gitee.com/Euraxluo/images/raw/master/picgo/3.png)
+![Bar chart](screenshots/3.png)
 
 ## License
 
