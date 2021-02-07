@@ -1,0 +1,16 @@
+{{ $plot_type := default "Bar" (.Get 0) }}
+{{ $h := default "300" (.Get 1) }}
+{{ $w := default "100" (.Get 2) }}
+{{ $r := ( .Inner | chomp) }}
+{{ $id := index (seq 999 | shuffle) 1 }}
+<script src="https://unpkg.com/@antv/g2plot@2/dist/g2plot.min"></script>
+<div style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
+    <div id="{{ $id }}"></div>
+</div>
+<script>
+    var options = {{ $r | safeJS }};
+    options["width"]={{$w}};
+    options["height"]={{$h}};
+    var plot_{{ $id | safeJS }} = new G2Plot.{{ $plot_type  | safeJS}}("{{ $id }}",options); 
+    plot_{{ $id | safeJS }}.render();
+</script>
