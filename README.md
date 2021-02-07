@@ -98,4 +98,4 @@ This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme componen
 
 ## License
 
-[hugo-g2plot](https://github.com/Euraxluo/hugo-g2plot) by [Eric Shen](https://github.com/Euraxluo) is under [GPL v3](https://github.com/Euraxluo/hugo-g2plot/blob/master/LICENSE) license.
+[hugo-g2plot](https://github.com/Euraxluo/hugo-g2plot) by [Euraxluo](https://github.com/Euraxluo) is under [GPL v3](https://github.com/Euraxluo/hugo-g2plot/blob/master/LICENSE) license.
