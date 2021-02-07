@@ -4,7 +4,7 @@ date: 2021-02-07T2:10:29+08:00
 draft: false
 ---
 
-{{< g2plot Bar 100 300 >}}
+{{< g2plot Bar 300 100 >}}
 {
   "data": [
     { "year": "1991", "value": 3 },
@@ -24,7 +24,7 @@ draft: false
 
 
 
-{{< g2plot Area 100 300 >}}
+{{< g2plot Area 300 100 >}}
 {
   "data" : [
   { "country": "北美", "date": 1965, "value": 1390.5 },
@@ -409,7 +409,7 @@ draft: false
 }
 {{< /g2plot >}}
 
-{{< g2plot Line 100 300 >}}
+{{< g2plot Line 300 100 >}}
 {
   "appendPadding": 32,
   "data": [
